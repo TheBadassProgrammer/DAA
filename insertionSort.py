@@ -6,11 +6,10 @@ def insertionSort(arr):
             arr[j+1] = arr[j]
             j-=1
         arr[j+1] = key
-    return arr
 
 arr = [2,5,1,8,3,0]
-
-print(insertionSort(arr))
+insertionSort(arr)
+print(arr)
 
 '''
 Time complexity:
