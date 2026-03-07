@@ -23,3 +23,12 @@ arr = [8,3,1,7,0,10,2]
 quick_sort(arr, 0, len(arr)-1)
 
 print(arr)
+
+
+'''
+Good for large datasets. One of the fastest sorting algos. It is inplace.
+Time Complexities:
+Worst - n^2
+Avg   - nlogn
+Best  - nlogn
+'''
